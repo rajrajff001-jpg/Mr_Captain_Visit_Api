@@ -52,7 +52,7 @@ def parse_protobuf_response(response_data):
 
 async def visit(session, url, token, uid, data):
     headers = {
-        "ReleaseVersion": "OB50",
+        "ReleaseVersion": "OB51",
         "X-GA": "v1 1",
         "Authorization": f"Bearer {token}",
         "Host": url.replace("https://", "").split("/")[0]
