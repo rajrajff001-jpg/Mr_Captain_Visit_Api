@@ -25,9 +25,9 @@ def generate_tokens(input_file):
                 if region_code == 'IND':
                     region = 'IND'
                 elif region_code in {'BR', 'US', 'SAC', 'NA'}:
-                    region = 'BR'
+                    region = 'IND'
                 else:
-                    region = 'BD'
+                    region = 'IND'
                 
                 result[region].append({
                     'uid': account['uid'],
